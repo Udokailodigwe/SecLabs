@@ -1,0 +1,34 @@
+// Lab 01 — executed in Kibana Discover
+// Data view: windows*
+// Language: KQL
+// Time picker: Last 15 years
+//   from  Nov 4, 2011 @ 00:04:02.378
+//   to    Nov 4, 2026 @ 00:04:02.378
+// Result: 8 hits
+
+event.code:4625 AND user.name: admin*
+
+// ---------------------------------------------------------------------------
+// Not run in this capture. Add these only after the field names are confirmed
+// in Available fields. Winlogbeat 8.x usually stores the 4625 payload under
+// winlog.event_data.*.
+// ---------------------------------------------------------------------------
+
+// Same hunt, Security channel only
+// event.code:4625 AND user.name: admin* AND winlog.channel: "Security"
+
+// Failures on the privileged access workstation only
+// event.code:4625 AND user.name: admin* AND agent.name: "PAW"
+
+// Columns to add before calling this password guessing:
+//   user.name
+//   winlog.event_data.TargetUserName
+//   winlog.event_data.TargetDomainName
+//   winlog.event_data.LogonType
+//   winlog.event_data.Status
+//   winlog.event_data.SubStatus
+//   winlog.event_data.IpAddress
+//   winlog.event_data.WorkstationName
+//   winlog.event_data.FailureReason
+//   source.ip
+//   host.name

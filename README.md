@@ -14,7 +14,7 @@ Security operations lab portfolio. Each case folder documents the objective, env
 | [04 — Nmap and Wireshark scan patterns](labs/04-nmap-wireshark-reconnaissance-scan-patterns/) | TCP connect versus half-open SYN scan | Kali, Nmap 7.99, Wireshark, Firefox | 22 open ports; handshake difference on port 80 |
 | [05 — Tenable Nessus on Ubuntu](labs/05-tenable-nessus-ubuntu/) | Scanner deployment, three asset scans and remediation reporting | Nessus Essentials Plus, Ubuntu | 45 findings: 1 medium, 44 informational |
 | [06 — OpenVAS assessment on Kali](labs/06-openvas-kali-vulnerability-assessment/) | GVM setup, scanning, result analysis | Kali, GVM/OpenVAS, Nmap-related checks | 12 displayed results: 1 medium, 1 low, 10 log; report at 84% |
-| [07 — OpenVAS deployment on Ubuntu](labs/07-openvas-ubuntu-deployment/) | Scanner services, targets, web UI troubleshooting | Ubuntu, OSPD, gvmd, GSA | 2 target records; 3 tasks shown as interrupted |
+
 
 ## Featured
 
@@ -24,7 +24,7 @@ Security operations lab portfolio. Each case folder documents the objective, env
 - **[Nmap and Wireshark scan patterns](labs/04-nmap-wireshark-reconnaissance-scan-patterns/docs/scan-patterns.md)** — Port discovery, SYN scanning, completed handshakes, and HTTP traffic.
 - **[Tenable Nessus assessment](labs/05-tenable-nessus-ubuntu/docs/nessus-assessment.md)** — Verified scanner deployment, assessed three assets, and mapped remediation recommendations to scan findings.
 - **[OpenVAS assessment on Kali](labs/06-openvas-kali-vulnerability-assessment/docs/kali-assessment.md)** — GVM start, scan tasks, progress, risk ratings, and DCE/RPC detection on a Windows host.
-- **[OpenVAS setup on Ubuntu](labs/07-openvas-ubuntu-deployment/docs/ubuntu-deployment.md)** — OSPD and manager setup, GSA target configuration, interrupted tasks, and frontend repair work.
+
 
 ## How a lab is stored
 

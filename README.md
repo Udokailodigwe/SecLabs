@@ -19,8 +19,9 @@ Security operations lab portfolio. Each case folder documents the objective, env
 | [09 — OSINT and reconnaissance](labs/09-osint-reconnaissance-enumeration/) | Passive discovery and enumeration | theHarvester, Recon-ng, Shodan, Censys | 16 and 164 host records in separate outputs |
 | [10 — Zeek network intrusion detection](labs/10-zeek-network-intrusion-detection/) | Network traffic monitoring and controlled scanning | Ubuntu, Zeek, Kali, Nmap, Apache2 | 3 open TCP ports; live connection logs reviewed |
 | [11 — Metasploit reverse TCP exploitation](labs/11-metasploit-reverse-tcp-exploitation/) | Controlled Windows endpoint security testing | Kali, Metasploit, Windows Server 2008 R2 and 2022 | Two remote sessions; Defender quarantine observed |
-
 | [12 — Cyber threat intelligence](labs/12-cyber-threat-intelligence/) | Historical campaign research and threat analysis | OSINT, MITRE ATT&CK Enterprise, CISA, Microsoft | Two campaign assessments with IOCs, hunting leads and response priorities |
+
+| [13 — Cybersecurity incident management and response planning](labs/13-incident-management-plan/) | AI-enabled threats, supply-chain compromise and cloud intrusion | Mandiant threat research, SIEM/EDR response planning | Proposed response plan with P1–P4 recovery targets and escalation procedures |
 
 ## Featured
 
@@ -42,6 +43,8 @@ Security operations lab portfolio. Each case folder documents the objective, env
 - **[Metasploit reverse TCP exploitation](labs/11-metasploit-reverse-tcp-exploitation/docs/exploitation-analysis.md)** — Windows endpoint exposure and Defender response.
 
 - **[Cyber threat intelligence](labs/12-cyber-threat-intelligence/)** — MOVEit / Cl0p and SharePoint ToolShell / Storm-2603 campaign analysis, ATT&CK mapping and defensive recommendations.
+
+- **[Cybersecurity incident management and response planning](labs/13-incident-management-plan/)** — Threat-informed response procedures, recovery objectives, evidence handling and plan testing.
 
 ## How a lab is stored
 

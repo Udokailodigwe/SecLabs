@@ -1,4 +1,4 @@
-# Cyber Threat Intelligence Portfolio
+# Lab 12 — Cyber Threat Intelligence
 
 **Prepared by:** udodigwe  
 **Classification:** Public-source analytical research  

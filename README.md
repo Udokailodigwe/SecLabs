@@ -15,6 +15,7 @@ Security operations lab portfolio. Each case folder documents the objective, env
 | [05 — Tenable Nessus on Ubuntu](labs/05-tenable-nessus-ubuntu/) | Scanner deployment, three asset scans and remediation reporting | Nessus Essentials Plus, Ubuntu | 45 findings: 1 medium, 44 informational |
 | [06 — OpenVAS assessment on Kali](labs/06-openvas-kali-vulnerability-assessment/) | GVM setup, scanning, result analysis | Kali, GVM/OpenVAS, Nmap-related checks | 12 displayed results: 1 medium, 1 low, 10 log; report at 84% |
 | [07 — Nikto web server assessment](labs/07-nikto-web-server-assessment/) | HTTPS web server scanning and response validation | Kali, Nikto, curl | 16 reported items on personal site; HTTP 404 verified |
+| [08 — Multi-tool vulnerability assessment](labs/08-multi-tool-vulnerability-assessment/) | Alpine host and web application assessment | OpenVAS, Wapiti, Nikto, WPScan, SQLmap | 5 Wapiti findings; 9 Nikto items; injection test inconclusive |
 
 ## Featured
 
@@ -26,6 +27,8 @@ Security operations lab portfolio. Each case folder documents the objective, env
 - **[OpenVAS assessment on Kali](labs/06-openvas-kali-vulnerability-assessment/docs/kali-assessment.md)** — GVM start, scan tasks, progress, risk ratings, and DCE/RPC detection on a Windows host.
 
 - **[Nikto web server assessment](labs/07-nikto-web-server-assessment/docs/nikto-assessment.md)** — Web server scanning and HTTP response validation.
+
+- **[Multi-tool vulnerability assessment](labs/08-multi-tool-vulnerability-assessment/docs/assessment.md)** — Scanner comparison, evidence review and remediation recommendations.
 
 ## How a lab is stored
 

@@ -20,7 +20,7 @@ Security operations lab portfolio. Each case folder documents the objective, env
 | [10 — Zeek network intrusion detection](labs/10-zeek-network-intrusion-detection/) | Network traffic monitoring and controlled scanning | Ubuntu, Zeek, Kali, Nmap, Apache2 | 3 open TCP ports; live connection logs reviewed |
 | [11 — Metasploit reverse TCP exploitation](labs/11-metasploit-reverse-tcp-exploitation/) | Controlled Windows endpoint security testing | Kali, Metasploit, Windows Server 2008 R2 and 2022 | Two remote sessions; Defender quarantine observed |
 | [12 — Cyber threat intelligence](labs/12-cyber-threat-intelligence/) | Historical campaign research and threat analysis | OSINT, MITRE ATT&CK Enterprise, CISA, Microsoft | Two campaign assessments with IOCs, hunting leads and response priorities |
-| [13 — Cybersecurity incident management and response planning](labs/13-incident-management-plan/) | AI-enabled threats, supply-chain compromise and cloud intrusion | Mandiant threat research, SIEM/EDR response planning | Proposed response plan with P1–P4 recovery targets and escalation procedures |
+| [13 — Cybersecurity incident management and response planning](labs/13-Incident-Response-Plan-management/) | AI-enabled threats, supply-chain compromise and cloud intrusion | Mandiant threat research, SIEM/EDR response planning | Proposed response plan with P1–P4 recovery targets and escalation procedures |
 
 | [14 — Network attack simulation](labs/14-network-attack-simulation/) | ARP poisoning, HTTP interception, MAC flooding and phishing setup | Kali, Ubuntu, Windows Server 2022, Wireshark, SET | HTTP requests captured; TCP connectivity validated; email delivery failed |
 
@@ -45,7 +45,7 @@ Security operations lab portfolio. Each case folder documents the objective, env
 
 - **[Cyber threat intelligence](labs/12-cyber-threat-intelligence/)** — MOVEit / Cl0p and SharePoint ToolShell / Storm-2603 campaign analysis, ATT&CK mapping and defensive recommendations.
 
-- **[Cybersecurity incident management and response planning](labs/13-incident-management-plan/)** — Threat-informed response procedures, recovery objectives, evidence handling and plan testing.
+- **[Cybersecurity incident management and response planning](labs/13-Incident-Response-Plan-management/)** — Threat-informed response procedures, recovery objectives, evidence handling and plan testing.
 
 - **[Network attack simulation](labs/14-network-attack-simulation/docs/network-attack-analysis.md)** — ARP poisoning, HTTP exposure, MAC flooding and listener validation.
 

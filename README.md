@@ -16,6 +16,7 @@ Security operations lab portfolio. Each case folder documents the objective, env
 | [06 — OpenVAS assessment on Kali](labs/06-openvas-kali-vulnerability-assessment/) | GVM setup, scanning, result analysis | Kali, GVM/OpenVAS, Nmap-related checks | 12 displayed results: 1 medium, 1 low, 10 log; report at 84% |
 | [07 — Nikto web server assessment](labs/07-nikto-web-server-assessment/) | HTTPS web server scanning and response validation | Kali, Nikto, curl | 16 reported items on personal site; HTTP 404 verified |
 | [08 — Multi-tool vulnerability assessment](labs/08-multi-tool-vulnerability-assessment/) | Alpine host and web application assessment | OpenVAS, Wapiti, Nikto, WPScan, SQLmap | 5 Wapiti findings; 9 Nikto items; injection test inconclusive |
+| [09 — OSINT and reconnaissance](labs/09-osint-reconnaissance-enumeration/) | Passive discovery and enumeration | theHarvester, Recon-ng, Shodan, Censys | 16 and 164 host records in separate outputs |
 
 ## Featured
 
@@ -29,6 +30,8 @@ Security operations lab portfolio. Each case folder documents the objective, env
 - **[Nikto web server assessment](labs/07-nikto-web-server-assessment/docs/nikto-assessment.md)** — Web server scanning and HTTP response validation.
 
 - **[Multi-tool vulnerability assessment](labs/08-multi-tool-vulnerability-assessment/docs/assessment.md)** — Scanner comparison, evidence review and remediation recommendations.
+
+- **[OSINT and reconnaissance](labs/09-osint-reconnaissance-enumeration/docs/reconnaissance.md)** — Asset discovery, source correlation and exposure review.
 
 ## How a lab is stored
 
